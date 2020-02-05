@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="utf-8">
+<head>
+	<link rel="stylesheet" type="text/css" href="проба.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+	<title>Турецкая мельница</title>
+</head>
+<body>
+	<div class="popup">
+		<div class="popup_feedback_form">
+			<form class="popup_form" method="post" action="#">
+				<label for="name_input">Ваше имя</label>
+				<input id= "name_input" type="text" name="name" required="required" />
+				<label for="email">Ваш Email</label>
+				<input id="email" type="email" name="email" required="required">
+				<label for="tel">Введите номер</label>
+				<input id="tel" type="tel" name="tel"  required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(XXX)XXX-XX-XX"/>
+				<input class="post_input" type="submit" value="Оформить заказ" />
+			</form>
+		</div>
+	</div>
+	<main>
+		<div class="main_theme">
+			<div class="main_text">
+				<h1>НАСТОЯЩАЯ&nbsp;ТУРЕЦКАЯ МЕЛЬНИЦА</h1>
+				<p>с металлическими жерновами из Стамбула
+									<br>
+						ДОСТАВКА ПО ВСЕЙ РОССИИ</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="description">
+				<p>Турецкая мельница с металлическими жерновами подарит вам удовольствие от приготовления любимых блюд или кофе! А гости придут в настоящий восторг от такого аксессуара на вашей&nbsp;кухне. Побалуйте себя!</p>
+			</div>
+		</div>
+		<div class="purchase">
+			<div class="container purch_btn">
+				<h2>ТУРЕЦКАЯ МЕЛЬНИЦА</h2>
+				<p>ВОЛШЕБСТВО НА ВАШЕЙ КУХНЕ</p>
+				<span class="cash">850 p.</span><br>
+				<button class="show_popup buy">Купить</button>
+			</div>
+		</div>
+		<div class="goods_list">
+			<h2>Мельница родом из Стамбула</h2>
+			<div class="list flex-container">
+				<div class="list_text">
+					<h3>Такая маленькая и удобная</h3>
+					<p>После того как вы попробуете перемолоть перчик в мельнице, вы никогда больше не купите молотые пряности! Обычные блюда приобретают незабываемый аромат и вкус! 
+					Мельница также подходит для перемалывания кофейных зерен.
+					Высота мельницы 11 см.
+					Мельница сделана из сплава алюминия и цинка.
+					Помол регулируется.</p>
+				</div>
+				<img class="coffee" src="img/1.jpg" alt="coffee">
+			</div>
+			<div class="list flex-container">
+				<img class="coffee" src="img/2.jpg" alt="coffee">
+				<div class="list_text">
+					<h3>Регулируемый помол</h3>
+					<p>Мельница идеально подходит для перемалывания кофейных зерен. Помол можно регулировать как для турки, так и для капсульной кофемашины. Достаточно просто закрутить нижнюю гайку для уменьшения помола и раскрутить для увеличения.</p>
+				</div>
+			</div>
+			<div class="list flex-container">
+				<div class="list_text">
+					<h3>Металлические жернова</h3>
+					<p>Благодаря этому, мельница прослужит вам более 10 лет, проверено! А также сможет помолоть самые твердые пряности или кофейные зерна. Мельница имеет резервуар для помола.</p>
+				</div>
+				<img class="coffee" src="img/3.jpg" alt="coffee">
+			</div>
+			<div class="list flex-container">
+				<img class="coffee" src="img/4.jpg" alt="coffee">
+				<div class="list_text">
+					<h3>Клеймо завода</h3>
+					<p>Очень часто можно встретить подделку сделанную в Китае, которая выполнена из низкокачественных материалов. Срок службы таких мельниц обычно меньше года. <br> Клеймо завода означает, что мельница выполнена из оригинального материала, по старинным технологиям турецкого завода. </p>
+				</div>
+			</div>
+		</div>
+		<div class="goods_color">
+			<div class="change_color">
+				<h2 class="">Выбери свой цвет</h2>
+				<p class="flex-container">Турецкие мельницы изготавливаются в двух цветах: под старинное серебро и под медь. Медная мельница отлично подойдет в интерьер с теплыми цветовыми решениями, а вот серебряная отлично будет смотреться на кухне с преобладанием синих, серых и голубых оттенков.</p>
+			</div>
+			<div class="arrows">
+				<button class="next_button"></button>
+				<button class="back_button"></button>
+			</div>
+			<div class="change_color__slick flex-container">
+				<img src="img/10.webp">
+				<img src="img/11.webp">
+				<img src="img/12.webp">
+				<img src="img/13.webp">
+				<img src="img/14.webp">
+			</div>
+			<div class="container purch_btn2">
+				<h2>ТУРЕЦКАЯ МЕЛЬНИЦА</h2>
+				<p>Воплотите свои самые яркие кулинарные идеи!</p>
+				<span class="cash1">850 p.</span>
+				<button class="show_popup buy1">Купить сейчас</button>
+			</div>
+		</div>
+		<div class="img"></div>
+				
+		
+	</main>
+	
+	<footer class="footer">
+		
+	</footer>
+	<div class="overlay"><a class="close_popup" href="#"></a></div>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick-1.8.1/slick/slick.min.js"></script>
+	<script src="coffee.js"></script>
+</body>
+</html>
